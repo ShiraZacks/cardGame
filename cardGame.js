@@ -263,8 +263,8 @@ function getCards() {
     const randomCard1 = getRandomCard();
     const randomCard2 = getRandomCard();
 
-    card1.src = "images/" + randomCard1.getImage();
-    card2.src = "images/" + randomCard2.getImage();
+    card1.src = randomCard1.getImage();
+    card2.src = randomCard2.getImage();
 
     let winner = document.getElementById("justForJS")
 
